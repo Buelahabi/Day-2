@@ -1,0 +1,32 @@
+
+
+
+
+Day 2:
+Difference between Browser JS(console) vs Nodejs:
+
+Browser js(Console) :
+-> “window” is a predefined global object which has functions and attributes, that have to deal with window that has been drawn.
+->  Moduling is not mandatory in client side JavaScript.
+-> “location” is another predefined object in browsers, that has all the information about the url we have loaded.
+-> “Document”, which is also another predefined global variable in browsers, has the html which is rendered.
+
+Node js :
+
+-> Node doesn’t have a predefined “window” object cause it doesn’t have a window to draw anything.
+-> In Node everything is a module. You must keep your code inside a module.
+-> “location” object is related to a particular url; that means it is for page specific. So, node doesn’t require that.
+-> Ofcourse Node doesn’t have “document” object also, cause it never have to render anything in a page.
+
+Execute the below code and write your description in txt file:
+typeof(1)  - DESCRIPTION:typeof(1)-Number.In javascript type0f(1)  is number.
+typeof(1.1)-DESCRIPTION :typeof(1.1)-Number.In javascript we will not consider decimal values so type0f(1.1) is also a number.
+typeof('1.1') -DESCRIPTION :typeof('1.1')-String.In javascript typeof(1.1') we will consider as a string.
+typeof(true) -DESCRIPTION :typeof(true) -Boolean.In javascript typeof(true) we will consider as a boolean value.
+typeof(null) -DESCRIPTION :typeof(null) -null.In javascript typeof(null) we will consider as a null only.
+typeof(undefined) - DESCRIPTION :typeof(undefined)-null.In javascript typeof(undefined) we will consider as a undefined only.
+typeof([]) - DESCRIPTION:typeof([])-typeof[] - object.In javascript typeof([]) we will consider as a object.
+typeof({}) -DESCRIPTION : typeof({})-typeof({})- object .In javascript typeof({}) we will consider as a object.
+typeof(NaN) -DESCRIPTION :typeof(NaN)-typeof(NaN)- number.In javascript typeof(NaN) we will consider as a number.
+
+
